@@ -1,0 +1,142 @@
+.index-banner
+    background: url(../images/banner-index.jpg) center
+    height: 560px
+    display: flex
+    flex-direction: column
+    justify-content: center
+.banner
+    h2
+        font-size: 46px
+        line-height: 85px
+        color: #fff
+        padding-top: 20px
+        letter-spacing: 3px
+        font-weight: bold
+        @include mb500
+            font-size: 40px
+            line-height: 60px
+            margin: 0
+    a
+        text-decoration: none
+        display: inline-block
+        background: $main-color
+        color: #fff
+        font-size: 20px
+        padding: 16px 0
+        text-align: center
+        margin-top: 45px
+        border-radius: 5px
+        width: 220px
+    a:hover
+        background: #00aa80
+.courses-part-title
+    display: flex
+    justify-content: space-between
+    @include pad-under
+        flex-direction: column
+    a
+        text-decoration: none
+        display: inline-block
+        color: $main-color
+        font-weight: bold
+        padding: 5px 13px
+        border: 3px solid $main-color
+        border-radius: 5px
+        @include pad-under
+            align-self: flex-end
+            margin-top: 10px
+    a:hover
+        background: #00cc9915
+.title
+    h2
+        font-size: 35px
+        margin-right: 15px
+        display: inline-block
+        font-weight: bold
+    h3
+        font-size: 20px
+        color: $minor-color1
+        display: inline-block
+        @include pad
+            padding-top: 10px
+.cards
+    display: flex
+    justify-content: space-between
+    @include pad-under
+        display: block
+.card
+    width: 29.2968%
+    text-align: center
+    border-radius: 3px
+    box-shadow: 0 2px 4px $minor-color1
+    padding: 25px 15px
+    @include pad-under
+        width: 100%
+        margin-bottom: 20px
+    img
+        margin-top: 5px
+    h3
+        font-size: 20px
+        padding: 15px 0
+        font-weight: bold
+    p
+        text-align: left
+        color: $minor-color1
+        font-size: 15px
+        line-height: 25px
+.compare-table
+    font-weight: bold
+    text-align: center
+    margin: 0 auto
+    width: 100%
+    line-height: 50px
+    th
+        background: $minor-color2
+    td
+        border-bottom: 1px solid $minor-color2
+.hint-box
+    background: $minor-color2
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding-top: 60px
+    padding-bottom: 60px
+    @include pad
+        display: block
+    h2
+        font-size: 30px
+        line-height: 58px
+        margin: 80px 0
+        @include pad
+            margin-bottom: 0
+            width: 100%
+.register-form
+    width: 50%
+    align-self: flex-end
+    display: flex
+    flex-direction: column
+    @include pad
+        width: 100%
+    input
+        font-size: 20px
+        padding: 15px
+        margin-bottom: 20px
+        width: 100%
+        border: 0
+        border-radius: 3px
+    input:focus
+        outline: none
+        box-shadow: inset 0 0 3px $main-color
+    button
+        align-self: flex-end
+        font-size: 20px
+        background: $main-color
+        color: #fff
+        padding: 12px 40px
+        border: 0
+        border-radius: 3px
+        cursor: pointer
+    button:hover
+        background: #00aa80
+
+

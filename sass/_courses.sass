@@ -1,0 +1,82 @@
+.courses-banner
+    background: url(../images/banner-courses.jpg) center
+    height: 560px
+    display: flex
+    flex-direction: column
+    justify-content: center
+.courses-banner-img
+    position: absolute
+    right: 55px
+    top: 120px
+    @include pad
+        display: none
+    img
+        margin-left: 30px
+.banner
+    h3
+        font-size: 24px
+.teacher
+    display: flex
+    @include pad
+        height: 220px
+        flex-direction: column
+        flex-wrap: wrap
+    @include pad-under
+        display: block
+        height: auto
+        text-align: center
+    img
+        flex: 1 1 220px
+        max-width: 220px
+    h2
+        flex: 1 1 202px
+        padding-left: 30px
+        margin-top: 65px
+        font-size: 35px
+        line-height: 45px
+        @include pad
+            flex: 1 1 50px
+            padding: 20px 0 0 0
+            margin: 5px 0 0 0
+        br
+            @include pad
+                display: none
+    ul
+        flex: 1 1 202px
+        margin-top: 70px
+        list-style: disc
+        color: $minor-color1
+        line-height: 20px
+        @include pad
+            flex: 1 1 100px
+            margin: 10px
+        @include pad-under
+            list-style: none
+.speciality
+    ol
+        list-style: decimal
+        padding-left: 20px
+        line-height: 25px
+.description
+    ul
+        line-height: 50px
+        li
+            padding-left: 40px
+        li:nth-child(odd)
+            background: $minor-color2
+        li:nth-child(even)
+            color: $minor-color1
+.hint-box
+    a
+        text-decoration: none
+        display: inline-block
+        background: $main-color
+        color: #fff
+        font-size: 20px
+        padding: 16px 0
+        text-align: center
+        margin-top: 45px
+        border-radius: 5px
+        width: 220px
+    a:hover
+        background: #00aa80
