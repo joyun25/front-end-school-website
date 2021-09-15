@@ -4,7 +4,6 @@
 ![](https://i.imgur.com/NvQVS5i.png)
 #### 功能：
 - 多頁式網站
-- 前端切版
 #### 使用技術：
 - Sass
 - RWD
