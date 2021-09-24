@@ -8990,43 +8990,32 @@ readers do not read off random characters that represent icons */
   content: "\f1ba";
 }
 
-.px-40 {
+.px-sm {
   padding-left: 40px;
   padding-right: 40px;
 }
 
 @media (max-width: 500px) {
-  .px-40 {
+  .px-sm {
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 
-.px-200 {
-  padding-left: 200px;
-  padding-right: 200px;
-}
-
-@media (max-width: 768px) {
-  .px-200 {
-    padding-left: 100px;
-    padding-right: 100px;
-  }
-}
-
-@media (max-width: 500px) {
-  .px-200 {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-}
-
-.mb-60 {
+.mb-lg {
   margin-bottom: 60px;
 }
 
-.mb-30 {
+.mb-sm {
   margin-bottom: 30px;
+}
+
+.container {
+  max-width: 650px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .main-color {
@@ -9375,9 +9364,13 @@ h1 a {
 .compare-table {
   font-weight: bold;
   text-align: center;
-  margin: 0 auto;
   width: 100%;
   line-height: 50px;
+}
+
+.compare-table caption {
+  text-align: left;
+  line-height: 1;
 }
 
 .compare-table th {
@@ -9619,15 +9612,18 @@ h1 a {
   background: #00cc99;
   color: #fff;
   font-size: 20px;
-  padding: 16px 0;
+  padding: 16px 38px;
   text-align: center;
   margin-top: 45px;
   border-radius: 5px;
-  width: 220px;
 }
 
 .hint-box a:hover {
   background: #00aa80;
+}
+
+.bg-secondary {
+  background: #ebebeb;
 }
 
 .questions-banner {
