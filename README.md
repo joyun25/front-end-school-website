@@ -1,6 +1,6 @@
 # 六角學院切版作業
 版型皆出自 [六角學院](https://www.hexschool.com/)線上課程作業，僅作切版練習
-### 多頁式網站：[Github Pages](https://joyun25.github.io/hex-school-multiple-pages/)
+### 多頁式網站：[Github Pages](https://joyun25.github.io/front-end-school-website/)
 ![](https://i.imgur.com/NvQVS5i.png)
 #### 功能：
 - 多頁式網站
